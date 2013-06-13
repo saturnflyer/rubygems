@@ -28,7 +28,7 @@ has_rdoc: true
   LEGACY_RUBY_SPEC = <<-EOF
 Gem::Specification.new do |s|
   s.name = %q{keyedlist}
-  s.version = %q{0.4.0}
+  s.version = %q{0.4.0}.freeze
   s.has_rdoc = true
   s.summary = %q{A Hash which automatically computes keys.}
   s.files = [%q{lib/keyedlist.rb}]
